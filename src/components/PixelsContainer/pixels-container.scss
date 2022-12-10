@@ -1,6 +1,23 @@
 .pixels-container {
   width: 1000px;
   height: 1000px;
-  background-color: red;
+  background-color: purple;
   align-self: center;
+}
+
+.selectable-pixels-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.pixel {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.ds-selected {
+  background-color: green;
 }
